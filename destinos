@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destinos - Agencia de Viajes</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Explora Viajes</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="destinos.html">Destinos</a>
+            <a href="paquetes.html">Paquetes</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Lugares Turísticos Disponibles</h2>
+        <ul>
+            <li><strong>París, Francia</strong> - La ciudad del amor, famosa por la Torre Eiffel y sus museos.</li>
+            <li><strong>Maldivas</strong> - Playas paradisíacas y resorts de lujo.</li>
+            <li><strong>Roma, Italia</strong> - Historia, arte y deliciosa gastronomía.</li>
+            <li><strong>Kyoto, Japón</strong> - Cultura ancestral y templos tradicionales.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Agencia de Viajes Explora</p>
+    </footer>
+</body>
+</html>
