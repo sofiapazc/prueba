@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paquetes - Agencia de Viajes</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Explora Viajes</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="destinos.html">Destinos</a>
+            <a href="paquetes.html">Paquetes</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Nuetros Paquetes</h2>
+
+        <div class="paquete">
+            <h3>Euroclásico</h3>
+            <p>Viaje a Europa por 10 días con visitas a París, Roma y Berlín. Precio: $1500</p>
+        </div>
+
+        <div class="paquete">
+            <h3>Paraíso en Maldivas</h3>
+            <p>7 días en un resort de lujo en las Maldivas. Precio: $2000</p>
+        </div>
+
+       
