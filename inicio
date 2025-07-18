@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agencia de Viajes - Inicio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Explora Viajes</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="destinos.html">Destinos</a>
+            <a href="paquetes.html">Paquetes</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Tu agencia de viajes confiable</h2>
+        <p>Descubre lugares increíbles y vive experiencias únicas con nosotros.</p>
+    </section>
+
+    <section class="info">
+        <h3>¿Por qué elegirnos?</h3>
+        <p>Ofrecemos los mejores paquetes, destinos exclusivos y atención personalizada para que tu viaje sea inolvidable.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Agencia de Viajes Explora</p>
+    </footer>
+</body>
+</html>
