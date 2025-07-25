@@ -1,10 +1,35 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Destinos - Agencia de Viajes</title>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+        .destino {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .destino img {
+            width: 80%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 15px;
+        }
+
+        .destino h3 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        .destino p {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -19,13 +44,37 @@
 
     <section>
         <h2>Lugares Turísticos Disponibles</h2>
-        <ul>
-            <li><strong>París, Francia</strong> - La ciudad del amor, famosa por la Torre Eiffel y sus museos.</li>
-            <li><strong>Maldivas</strong> - Playas paradisíacas y resorts de lujo.</li>
-            <li><strong>Roma, Italia</strong> - Historia, arte y deliciosa gastronomía.</li>
-            <li><strong>Kyoto, Japón</strong> - Cultura ancestral y templos tradicionales.</li>
-        </ul>
+
+        <div class="destino">
+            <img src="francia.jpg" alt="París, Francia">
+            <h3>París, Francia</h3>
+            <p>La ciudad del amor, famosa por la Torre Eiffel, el Louvre, el Sena y su encanto único en cada rincón.</p>
+        </div>
+
+        <div class="destino">
+            <img src="maldivas.jpg" alt="Maldivas">
+            <h3>Maldivas</h3>
+            <p>Playas paradisíacas, aguas cristalinas y resorts sobre el mar. Un destino ideal para el relax y el lujo.</p>
+        </div>
+
+        <div class="destino">
+            <img src="roma.jpg" alt="Roma, Italia">
+            <h3>Roma, Italia</h3>
+            <p>Una ciudad llena de historia y arte, con monumentos como el Coliseo, la Fontana di Trevi y el Vaticano.</p>
+        </div>
+
+        <div class="destino">
+            <img src="kyoto.jpg" alt="Kyoto, Japón">
+            <h3>Kyoto, Japón</h3>
+            <p>Templos tradicionales, jardines zen y cultura ancestral en una de las ciudades más emblemáticas de Japón.</p>
+        </div>
     </section>
+
+    <footer>
+        <p>&copy; 2025 Agencia de Viajes Explora</p>
+    </footer>
+</body>
+</html>
 
     <footer>
         <p>&copy; 2025 Agencia de Viajes Explora</p>
